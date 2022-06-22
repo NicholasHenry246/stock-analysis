@@ -22,12 +22,11 @@ Before updating, the speed of the code was 0.95 and 0.96 seconds for 2017 and 20
 By using an index tracker and creating separate arrays for the volumes, start price and end price, we were able to shorten the run speed to 0.27 and 0.22 seconds for 2017 and 2018 respectively. Our array contained 12 stocks which started at 0 for AY and ended at 11 for VSLR. The ticker index was used to track when we were at the end of the data for a stock and update by 1 to move to another stock. Therefore, the code was able to sum the volumes while capturing the starting and ending prices for each stock without having to loop though the data many times.
 
 ## Advantages and Disadvantages of Refactoring
-- 1 
-- 2
-- 3
+Refactoring code: 
+- 1 Saves memory
+- 2 Runs Faster
+- 3 reduces time needed to debug long code
  
 ## Advantages and Disadvantages of Original and Refactored Code
-- 1
-- 2
-- 3
+The original code was slower and contained a nested for loop. This can become complicated if more loops need to be added. The advandage of the refactored code is its simplicity. It is also easier for another reader to understand.
 
