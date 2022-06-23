@@ -36,6 +36,9 @@ By using an index tracker and creating separate arrays for the volumes, start pr
 ### Finding Ending Prices and moving to the next ticker
 ![EndingPrices_and_Index_Counter](Resources/EndingPrices_and_Index_Counter.png)
 
+### Output for loop to show tickers, total volumes and returns
+![Output_for_loop](Resources/Output_for_loop.png)
+
 
 ## Advantages and Disadvantages of Refactoring
 Refactoring code: 
