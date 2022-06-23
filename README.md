@@ -19,7 +19,23 @@ Before updating, the speed of the code was 0.95 and 0.96 seconds for 2017 and 20
 ![VBA_Challenge_2017](Resources/VBA_Challenge_2017.png)
 ![VBA_Challenge_2018](Resources/VBA_Challenge_2018.png)
 
-By using an index tracker and creating separate arrays for the volumes, start price and end price, we were able to shorten the run speed to 0.27 and 0.22 seconds for 2017 and 2018 respectively. Our array contained 12 stocks which started at 0 for AY and ended at 11 for VSLR. The ticker index was used to track when we were at the end of the data for a stock and update by 1 to move to another stock. Therefore, the code was able to sum the volumes while capturing the starting and ending prices for each stock without having to loop though the data many times.
+By using an index tracker and creating separate arrays for the volumes, start price and end price, we were able to shorten the run speed to 0.27 and 0.22 seconds for 2017 and 2018 respectively. Our array contained 12 stocks which started at 0 for AY and ended at 11 for VSLR. The ticker index was used to track when we were at the end of the data for a stock and update by 1 to move to another stock. Therefore, the code was able to sum the volumes while capturing the starting and ending prices for each stock without having to loop though the data many times. The code shown below illustrated the application of the tickerIndex and for loops.
+
+### TickersIndex Created and set to zero.
+![Create_tickers_Index](Resources/Create_tickers_Index.png)
+
+### Arrays Tracked by tickersIndex
+![Create_Arrays](Resources/Create_Arrays.png)
+
+### Setting ticker Volumes to zero
+![Start_Volumes](Resources/Start_Volumes.png)
+
+### Finding Volumes and Starting Prices
+![Volumes_and_Starting_Prices](Resources/Volumes_and_Starting_Prices.png)
+
+### Finding Ending Prices and moving to the next ticker
+![EndingPrices_and_Index_Counter](Resources/EndingPrices_and_Index_Counter.png)
+
 
 ## Advantages and Disadvantages of Refactoring
 Refactoring code: 
